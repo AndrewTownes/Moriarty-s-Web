@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	margin: 0 auto;
+}
+
+.header {
+	Width: 100%;
+	height: 50px;
+	background-color: Green;
+	
+}
+
+.gallery {
+	Width: 100%;
+	height: 400px;
+	background-color: blue;
+	
+}
+
+.quickinfo {
+	Width: 100%;
+	height: 200px;
+	background-color: yellow;
+	
+}
+
+.footer {
+	Width: 100%;
+	height: 45px;
+	background-color: Green;
+	margin-top: 0 auto;
+	
+}
