@@ -20,8 +20,16 @@ body {
 	padding-top: 30px;
 }
 
-.nav li{
-	d4bf45
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #d4bf45;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 
 ul {
     list-style-type: none;
