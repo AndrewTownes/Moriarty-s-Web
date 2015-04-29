@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	background:url(../image/dark-wood-texture.jpg);
+	background-color: #000000;
+	
+}
+
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #4b6b26;
+	
+}
+
+.nav{
+	margin: auto;
+	float: right;
+	padding-top: 25px;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    color: #d4bf45;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+	padding-right: 30px;
+	text-decoration: none;
+    /*text-transform: uppercase;*/
+}
+
+.logo {
+	margin-right: 0;
+	margin-left: 50px;
+	padding-top: 10px;
+	
+}
+
+.footer {
+	Width: 100%;
+	height: 25px;
+	background:url(../image/brick_texture3328.jpg);
+	background-size: 675px;
+	background-color: #000000;
+	margin-top: 0 auto;
+	opacity: 0.4;
+	-webkit-filter: saturate(0.6);
+  	filter: saturate(0.6);
+	color:#FFFFFF;
+	text-align:center;
+	padding-top: 20px;
+	
+}
+
