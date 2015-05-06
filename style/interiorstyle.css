@@ -58,6 +58,8 @@ li {
 	height: 300px;
 	background-color: blue;
 	background:url(../image/baredit.jpg);
+	background-size:contain;
+	color: #FDFCFC;
 }
 
 .centerspace {
