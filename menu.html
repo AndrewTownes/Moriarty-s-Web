@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Moriarty's menu page</title>
+<link rel="stylesheet" href="style/interiorstyle.css">
+</head>
+
+<body>
+	<div class="header">
+    
+    	<div class="nav">
+        <ul>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Beer List</a></li>
+          <li><a href="">Plan a Party</a></li>
+          <li><a href="">Reservations</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+        </div>
+        
+        <div class="logo">
+        	<a href="index.html"><img src="image/logo.png" alt="Moriarty logo" height="60px"></a>
+        </div>
+        
+    </div>
+    
+    <div class="imagebox" style="background:url(image/friesedit.jpg); background-size:cover;">
+    <h1 style="padding-top: 260px; padding-left: 205px; font-size: 45px; margin: 0 auto; border-bottom:thick; border-bottom-color:#254907;"> Menu </h1>
+    </div>
+    
+    <div class="centerspace">
+    <div class="tabA" id="tabA">
+    </div>
+    <div class="tabB" id="tabB">
+    </div>
+        <div id="menuA" class="menuA active" >
+        	
+        	<div class="menusection">
+            </div>
+    		<div class="centerbody2">
+    
+        	</div>
+            
+            <div class="centerbody2">
+    
+        	</div>
+            
+        </div>
+        
+        <div id="menuB" class="menuB">
+        	
+        	<div class="menusection">
+            </div>
+    		<div class="centerbody2">
+    
+        	</div>
+            
+            <div class="centerbody2">
+    
+        	</div>
+            
+        </div>
+    </div>
+    
+    
+    <div class="footer">
+    © 2015 Moriarty's Pub • 1116 Walnut Street, Philly • 215-627-7676
+    </div>
+<script>
+	var menuA = document.getElementById('menuA');
+	var menuB = document.getElementById('menuB');
+	var tabA = document.getElementById('tabA');
+	var tabB = document.getElementById('tabB');
+	tabA.addEventListener('click', function() {
+		if(menuA.classList.contains('active')){
+			return;
+		} else {
+			menuB.classList.remove('active');
+			menuA.classList.add('active');	
+		}
+		
+	});
+	tabB.addEventListener('click', function() {
+		if(menuB.classList.contains('active')){
+			return;
+		} else {
+			menuA.classList.remove('active');
+			menuB.classList.add('active');	
+		}
+		
+	});
+	
+
+</script>
+</body>
+</html>
+

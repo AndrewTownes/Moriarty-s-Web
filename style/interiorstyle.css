@@ -55,9 +55,9 @@ li {
 
 .imagebox {
 	width: 100%;
-	height: 300px;
-	background-color: black;
-	background:url(../image/baredit.jpg);
+	height: 320px;
+	/*background-color: black;
+	background:url(../image/baredit.jpg);*/
 	background-size:cover;
 	color: #FDFCFC;
 	
@@ -68,6 +68,71 @@ li {
 	height: 900px;
 	background-color: #8e946b;
 	margin-left: 200px;
+	
+}
+
+.menuA {
+	width:871px;
+	height:800px;
+	margin-left: 15px;
+	margin-top: 0px;
+	background-color: #254907;
+	display:none;
+	padding-top:55px;
+	border-top: 45px solid #8e946b;
+	
+}
+
+
+.menuB {
+	width:871px;
+	height:800px;
+	margin-left: 15px;
+	margin-top: 0px;
+	background-color: red;
+	display: none;
+	padding-top:55px;
+	border-top: 45px solid #8e946b;
+}
+
+
+.active {
+	display:block;
+}
+
+
+.tabA {
+	width: 434px;
+	height: 55px;
+	border: 1px solid red;
+	margin-left: 15px;
+	float: left;
+	margin-top:44px;
+}
+
+.tabB {
+	width: 434px;
+	height: 55px;
+	border: 1px solid red;
+	float: left;
+	margin-top:44px;
+}
+
+.menusection {
+	width: 870px;
+	height: 70px;
+	border: 1px solid red;
+	margin: 0px;
+	padding-top: 0px; 
+}
+
+.centerbody2 {
+	width:434px;
+	height:530px;
+	margin: 0px;
+	background-color: #254907;
+	float:left;
+	border: 1px solid red;
 	
 }
 
