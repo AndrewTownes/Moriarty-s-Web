@@ -38,8 +38,61 @@
         <div id="menuA" class="menuA active" >
         	
         	<div class="menusection">
+            
+            <input type="button" id="appetizers" />
+            <input type="button" id="soups" />
+            <input type="button" id="salads" />
+            <input type="button" id="burgers" />
+            <input type="button" id="mexican" />
+            <input type="button" id="sandwiches" />
+            <input type="button" id="wraps" />
+            <input type="button" id="platters" />
+            <input type="button" id="combos" />
+            <input type="button" id="classics" />
+            <input type="button" id="desserts" />
+            
             </div>
-    		<div class="centerbody2">
+    		<div class="centerbody2" id="appetizers">
+    
+    			<h1>Chicken Nachos</h1> 
+                <p>corn tortilla chips topped with cheese, refried beans, grilled chicken, jalapenos, tomatoes and black olives</p>
+                
+                <h1>Fried Mozzarella</h1> 
+                <p>coated in italian bread crumbs and herbs served with marinara</p>
+                
+                <h1>Spinach Artichoke Dip</h1> 
+                <p>spinach and artichoke in a creamy cheese sauce served with pita bread</p>
+                
+                <h1>Sliders</h1> 
+                <p>choice of three mini cheeseburgers, crabcakes or bbq pulled pork served on mini rolls with lettuce and tomatoes, mix and 				match!</p>
+                
+                <h1>Onion Rings</h1> 
+                <p>homemade, thick cut and golden fried</p>
+                
+                <h1>Wings "N" Things</h1> 
+                <p> buffalo chicken wings, potato skins and fried mozzarella served with bleu cheese, marinara and sour cream</p>
+                
+                <h1>Paddy's Potato Skins</h1> 
+                <p> loaded with cheddar and bacon served with sour cream</p>
+                
+                <h1>Nachos Supreme</h1> 
+                <p>corn tortilla chips topped with cheese, refried beans, ground beef, jalapeno peppers, tomatoes, black olives and topped with sour cream</p>
+                
+                <h1>Chicken Tenders</h1> 
+                <p>breaded chicken tenders fried and served with honey mustard</p>
+                
+                <h1>Brew City Fries</h1> 
+                <p>plain</p>
+                
+                <h1>Spanish Curly Fries</h1> 
+                <p>made with fried onions, peppers and seasonings</p>
+                
+                <h1>Chicken Quesadilla</h1> 
+                <p>shredded chicken mixed with chipotle and ancho chilies, caramelized onions and jack cheese between flour tortillas, topped with salsa</p>
+                
+                <h1>Chicken Wings</h1> 
+                <p> philly's best, still the best, cooked in a tangy sauce served with bleu cheese dip, topped with carrot and celery sticks</p>
+                
     
         	</div>
             
@@ -68,32 +121,9 @@
     <div class="footer">
     © 2015 Moriarty's Pub • 1116 Walnut Street, Philly • 215-627-7676
     </div>
-<script>
-	var menuA = document.getElementById('menuA');
-	var menuB = document.getElementById('menuB');
-	var tabA = document.getElementById('tabA');
-	var tabB = document.getElementById('tabB');
-	tabA.addEventListener('click', function() {
-		if(menuA.classList.contains('active')){
-			return;
-		} else {
-			menuB.classList.remove('active');
-			menuA.classList.add('active');	
-		}
-		
-	});
-	tabB.addEventListener('click', function() {
-		if(menuB.classList.contains('active')){
-			return;
-		} else {
-			menuA.classList.remove('active');
-			menuB.classList.add('active');	
-		}
-		
-	});
-	
 
-</script>
+<script src="script/script.js"></script>
+
 </body>
 </html>
 
