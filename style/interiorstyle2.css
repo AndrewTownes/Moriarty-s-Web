@@ -1,0 +1,261 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin: 0 auto;
+	background:url(../image/dark-wood-texture.jpg);
+	background-color: #000000;
+	
+}
+
+.header {
+	width: 100%;
+	height: 70px;
+	background-color: #4b6b26;
+	
+}
+
+.nav{
+	margin: auto;
+	float: right;
+	padding-top: 25px;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 100px;
+    font-weight: bold;
+    color: #d4bf45;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    /*text-transform: uppercase;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+	padding-right: 10px;
+	text-decoration: none;
+    /*text-transform: uppercase;*/
+}
+
+.logo {
+	margin-right: 0;
+	margin-left: 50px;
+	padding-top: 10px;
+	
+}
+
+.imagebox {
+	width: 100%;
+	height: 320px;
+	/*background-color: black;
+	background:url(../image/baredit.jpg);*/
+	background-size:cover;
+	color: #FDFCFC;
+	
+}
+
+.centerspace {
+	width: 900px;
+	height: 6200px;
+	background-color: #8e946b;
+	margin-left: 200px;
+	
+}
+
+.menuA {
+	width:810px;
+	height:6100px;
+	margin-left: 45px;
+	margin-top: 0px;
+	background-color: #254907;
+	display:none;
+	padding-top:55px;
+	border-top: 45px solid #8e946b;
+	
+}
+
+
+.menuB {
+	width:810px;
+	height:6100px;
+	margin-left: 45px;
+	margin-top: 0px;
+	background-color: #254907;
+	display: none;
+	padding-top:55px;
+	border-top: 45px solid #8e946b;
+	
+}
+
+
+.active {
+	display:block;
+}
+
+
+.tabA {
+	width: 434px;
+	height: 38px;
+	border: 1px solid #8e946b;
+	margin-left: 15px;
+	float: left;
+	margin-top:44px;
+	font-size:18pt;
+	text-align:center;
+	padding-top:16px;
+	font-weight: bold;
+	cursor: pointer;
+	/*border-top-left-radius: 50px;
+	border-top-right-radius: 50px;*/
+}
+
+.tabA:active{  
+    background: #8e946b;
+    outline: 0;
+}
+
+
+
+.tabB {
+	width: 434px;
+	height: 38px;
+	border: 1px solid #8e946b;
+	float: left;
+	margin-top:44px;
+	font-size:18pt;
+	text-align:center;
+	padding-top:16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.tabB:active,
+.tabB:focus{  
+    background: #8e946b;
+    outline: 0;
+}
+
+hr{
+	margin-top:20px;
+	margin-bottom:30px;
+}
+
+h3{
+	padding-left:80px;
+	font-size:48px;
+	margin-top:0px;
+	margin-bottom:10px;
+	color:#8e946b;
+}
+
+h2 {
+	margin-top:20px;
+	margin-bottom:8px;
+	color:#FFFFFF;
+}
+
+p{
+	margin-top: 0px;
+	color:#FFFFFF;
+}
+
+em{
+	color:#d4bf45;
+	margin-left: 5px;
+}
+
+.menuB menusection {
+	align-content:center;
+	padding-left:60px;
+	width:750px;
+	
+}
+
+.menuB menusection a{
+	width:200px;
+	
+}
+
+.menuB menusection li{
+	padding-right:20px;
+	
+}
+
+.menusection {
+	width: 830px;
+	height: 39px;
+	border: 1px solid #8e946b;
+	margin: 0px;
+	padding-top: 12px;
+	padding-left:0px; 
+}
+
+.menusection li{
+	
+	padding-right:0px;
+	
+}
+
+.menusection a{
+	height:70px;
+	width:100px;
+	font-weight:normal;
+	font-size:12pt;
+	padding:0px;
+	color:#C8C6C6;
+	
+}
+
+.menusection a:hover{
+	height:70px;
+	width:105px;
+	font-weight:normal;
+	font-size:13pt;
+	padding:0px;
+	color:#FFFFFF;
+	
+}
+
+#indent{
+	text-indent: 30px;
+	font-size: 18px;
+}
+
+.centerbody2 {
+	width:693px;
+	height:6016px;
+	margin: 0px;
+	background-color: #254907;
+	float:left;
+	/*border: 1px solid red;*/
+	margin-top:50px;
+	margin-left: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top:10px;
+}
+
+.footer {
+	Width: 100%;
+	height: 25px;
+	background:url(../image/brick_texture3328.jpg);
+	background-size: 675px;
+	background-color: #000000;
+	margin-top: 0 auto;
+	opacity: 0.4;
+	-webkit-filter: saturate(0.6);
+  	filter: saturate(0.6);
+	color:#FFFFFF;
+	text-align:center;
+	padding-top: 20px;
+	
+}
