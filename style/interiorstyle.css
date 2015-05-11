@@ -104,7 +104,7 @@ li {
 .tabA {
 	width: 434px;
 	height: 38px;
-	border: 1px solid red;
+	border: 1px solid #8e946b;
 	margin-left: 15px;
 	float: left;
 	margin-top:44px;
@@ -125,7 +125,7 @@ li {
 .tabB {
 	width: 434px;
 	height: 38px;
-	border: 1px solid red;
+	border: 1px solid #8e946b;
 	float: left;
 	margin-top:44px;
 	font-size:18pt;
@@ -143,10 +143,10 @@ li {
 
 .menusection {
 	width: 863px;
-	height: 34px;
-	border: 1px solid red;
+	height: 38px;
+	border: 1px solid #8e946b;
 	margin: 0px;
-	padding-top: 20px;
+	padding-top: 12px;
 	padding-left:7px; 
 }
 
@@ -160,7 +160,7 @@ li {
 	height:70px;
 	width:100px;
 	font-weight:normal;
-	font-size:8pt;
+	font-size:12pt;
 	padding:0px;
 	
 }
