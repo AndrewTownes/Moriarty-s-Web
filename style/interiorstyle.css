@@ -41,7 +41,7 @@ ul {
 
 li {
     float: left;
-	padding-right: 30px;
+	padding-right: 10px;
 	text-decoration: none;
     /*text-transform: uppercase;*/
 }
@@ -65,16 +65,16 @@ li {
 
 .centerspace {
 	width: 900px;
-	height: 8380px;
+	height: 6200px;
 	background-color: #8e946b;
 	margin-left: 200px;
 	
 }
 
 .menuA {
-	width:871px;
-	height:8280px;
-	margin-left: 15px;
+	width:810px;
+	height:6100px;
+	margin-left: 45px;
 	margin-top: 0px;
 	background-color: #254907;
 	display:none;
@@ -85,14 +85,15 @@ li {
 
 
 .menuB {
-	width:871px;
-	height:8280px;
-	margin-left: 15px;
+	width:810px;
+	height:6100px;
+	margin-left: 45px;
 	margin-top: 0px;
 	background-color: #254907;
 	display: none;
 	padding-top:55px;
 	border-top: 45px solid #8e946b;
+	
 }
 
 
@@ -113,6 +114,8 @@ li {
 	padding-top:16px;
 	font-weight: bold;
 	cursor: pointer;
+	/*border-top-left-radius: 50px;
+	border-top-right-radius: 50px;*/
 }
 
 .tabA:active{  
@@ -141,18 +144,64 @@ li {
     outline: 0;
 }
 
+hr{
+	margin-top:20px;
+	margin-bottom:30px;
+}
+
+h3{
+	padding-left:80px;
+	font-size:48px;
+	margin-top:0px;
+	margin-bottom:10px;
+	color:#8e946b;
+}
+
+h2 {
+	margin-top:20px;
+	margin-bottom:8px;
+	color:#FFFFFF;
+}
+
+p{
+	margin-top: 0px;
+	color:#FFFFFF;
+}
+
+em{
+	color:#d4bf45;
+	margin-left: 5px;
+}
+
+.menuB menusection {
+	align-content:center;
+	padding-left:60px;
+	width:750px;
+	
+}
+
+.menuB menusection a{
+	width:200px;
+	
+}
+
+.menuB menusection li{
+	padding-right:20px;
+	
+}
+
 .menusection {
-	width: 863px;
-	height: 38px;
+	width: 830px;
+	height: 39px;
 	border: 1px solid #8e946b;
 	margin: 0px;
 	padding-top: 12px;
-	padding-left:7px; 
+	padding-left:0px; 
 }
 
 .menusection li{
 	
-	padding:3px;
+	padding-right:0px;
 	
 }
 
@@ -162,19 +211,32 @@ li {
 	font-weight:normal;
 	font-size:12pt;
 	padding:0px;
+	color:#C8C6C6;
 	
 }
 
+.menusection a:hover{
+	height:70px;
+	width:105px;
+	font-weight:normal;
+	font-size:13pt;
+	padding:0px;
+	color:#FFFFFF;
+	
+}
+
+
 .centerbody2 {
-	width:734px;
-	height:8180px;
+	width:693px;
+	height:6016px;
 	margin: 0px;
 	background-color: #254907;
 	float:left;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin-left: 15px;
 	padding-left: 50px;
 	padding-right: 50px;
+	padding-top:10px;
 }
 
 .footer {
