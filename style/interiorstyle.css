@@ -65,7 +65,7 @@ li {
 
 .centerspace {
 	width: 900px;
-	height: 900px;
+	height: 8380px;
 	background-color: #8e946b;
 	margin-left: 200px;
 	
@@ -73,7 +73,7 @@ li {
 
 .menuA {
 	width:871px;
-	height:800px;
+	height:8280px;
 	margin-left: 15px;
 	margin-top: 0px;
 	background-color: #254907;
@@ -86,7 +86,7 @@ li {
 
 .menuB {
 	width:871px;
-	height:800px;
+	height:8280px;
 	margin-left: 15px;
 	margin-top: 0px;
 	background-color: #254907;
@@ -103,37 +103,78 @@ li {
 
 .tabA {
 	width: 434px;
-	height: 55px;
+	height: 38px;
 	border: 1px solid red;
 	margin-left: 15px;
 	float: left;
 	margin-top:44px;
+	font-size:18pt;
+	text-align:center;
+	padding-top:16px;
+	font-weight: bold;
+	cursor: pointer;
 }
+
+.tabA:active{  
+    background: #8e946b;
+    outline: 0;
+}
+
+
 
 .tabB {
 	width: 434px;
-	height: 55px;
+	height: 38px;
 	border: 1px solid red;
 	float: left;
 	margin-top:44px;
+	font-size:18pt;
+	text-align:center;
+	padding-top:16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.tabB:active,
+.tabB:focus{  
+    background: #8e946b;
+    outline: 0;
 }
 
 .menusection {
-	width: 870px;
-	height: 70px;
+	width: 863px;
+	height: 34px;
 	border: 1px solid red;
 	margin: 0px;
-	padding-top: 0px; 
+	padding-top: 20px;
+	padding-left:7px; 
+}
+
+.menusection li{
+	
+	padding:3px;
+	
+}
+
+.menusection a{
+	height:70px;
+	width:100px;
+	font-weight:normal;
+	font-size:8pt;
+	padding:0px;
+	
 }
 
 .centerbody2 {
-	width:434px;
-	height:530px;
+	width:734px;
+	height:8180px;
 	margin: 0px;
 	background-color: #254907;
 	float:left;
 	border: 1px solid red;
-	
+	margin-left: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 
 .footer {
