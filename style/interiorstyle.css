@@ -5,6 +5,7 @@ body {
 	margin: 0 auto;
 	background:url(../image/dark-wood-texture.jpg);
 	background-color: #000000;
+	font-family: 'Merriweather Sans', sans-serif;
 	
 }
 
@@ -65,7 +66,7 @@ li {
 
 .centerspace {
 	width: 900px;
-	height: 6200px;
+	height: 1550px;
 	background-color: #8e946b;
 	margin-left: 200px;
 	
@@ -73,7 +74,7 @@ li {
 
 .menuA {
 	width:810px;
-	height:6100px;
+	height:1450px;
 	margin-left: 45px;
 	margin-top: 0px;
 	background-color: #254907;
@@ -86,7 +87,7 @@ li {
 
 .menuB {
 	width:810px;
-	height:6100px;
+	height:1450px;
 	margin-left: 45px;
 	margin-top: 0px;
 	background-color: #254907;
@@ -173,26 +174,24 @@ em{
 	margin-left: 5px;
 }
 
-.menuB menusection {
+#menuB menusection {
 	align-content:center;
 	padding-left:60px;
 	width:750px;
+	padding-top:20px;
+	height:40px;
 	
 }
 
-.menuB menusection a{
-	width:200px;
+#menuB a{
+	width:205px;
 	
 }
 
-.menuB menusection li{
-	padding-right:20px;
-	
-}
 
 .menusection {
 	width: 830px;
-	height: 39px;
+	height: 49px;
 	border: 1px solid #8e946b;
 	margin: 0px;
 	padding-top: 12px;
@@ -228,7 +227,7 @@ em{
 
 .centerbody2 {
 	width:693px;
-	height:6016px;
+	height:1270px;
 	margin: 0px;
 	background-color: #254907;
 	float:left;
@@ -237,6 +236,7 @@ em{
 	padding-left: 50px;
 	padding-right: 50px;
 	padding-top:10px;
+	overflow-y:scroll;
 }
 
 .footer {

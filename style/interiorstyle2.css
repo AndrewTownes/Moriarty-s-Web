@@ -5,7 +5,7 @@ body {
 	margin: 0 auto;
 	background:url(../image/dark-wood-texture.jpg);
 	background-color: #000000;
-	
+	font-family: 'Merriweather Sans', sans-serif;
 }
 
 .header {
@@ -66,7 +66,7 @@ li {
 
 .centerspace {
 	width: 900px;
-	height: 1060px;
+	height: 1180px;
 	background-color: #8e946b;
 	margin-left: 200px;
 	
@@ -233,7 +233,7 @@ em{
 
 .centerbody2 {
 	width:693px;
-	height:1000px;
+	height:1120px;
 	margin: 0px;
 	background-color: #254907;
 	float:left;
