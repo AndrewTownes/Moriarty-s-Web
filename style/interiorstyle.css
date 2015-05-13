@@ -115,6 +115,7 @@ li {
 	padding-top:16px;
 	font-weight: bold;
 	cursor: pointer;
+	color:#d4bf45;
 	/*border-top-left-radius: 50px;
 	border-top-right-radius: 50px;*/
 }
@@ -137,6 +138,7 @@ li {
 	padding-top:16px;
 	font-weight: bold;
 	cursor: pointer;
+	color:#d4bf45;
 }
 
 .tabB:active,
@@ -156,6 +158,14 @@ h3{
 	margin-top:0px;
 	margin-bottom:10px;
 	color:#8e946b;
+}
+
+h4{
+	padding-left:80px;
+	font-style:italic;
+	margin-top:5px;
+	color:#FFFFFF;
+	font-size:11pt;
 }
 
 h2 {
@@ -237,6 +247,25 @@ em{
 	padding-right: 50px;
 	padding-top:10px;
 	overflow-y:scroll;
+}
+
+.centerbody2 h3{
+	color:#ffe657;
+}
+
+.centerbody2 h1{
+	
+	color:#ffe657;
+}
+
+.greenbar{
+	height:10px;
+	width:380px;
+	background-color:#254907;
+	position:absolute;
+	z-index:100;
+	left:200px;
+	top:385px;
 }
 
 .footer {
